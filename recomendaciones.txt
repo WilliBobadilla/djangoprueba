@@ -1,0 +1,14 @@
+---Pasos a Seguir para el deployamiento en heroku---
+
+https://www.codementor.io/jamesezechukwu/how-to-deploy-django-app-on-heroku-dtsee04d4
+
+1.primero clonar la repo en alguna computadora 
+2. luego agregar el requirements.txt
+3. agregar el runtime.txt 
+4. agregar el procfile con el ejemplo utilizado aca
+5.  cambiar el el allowed host en ["*"] en settings.py
+6. whitenoise para los archivos estaticos, no olvidar de cambiar eso en settings.py
+7.  no olvidar el middleware en el archivo settings.py tambien como esta en el ejemplo 
+8. hacer el commit de todo 
+9. no olvidar el procfile nombreproyecto.wgsi
+10. probar que funcione en internet 
