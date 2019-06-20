@@ -1,2 +1,2 @@
-web: gunicorn djangoprueba.wsgi --log-file -
+web: gunicorn 
 heroku ps:scale web=1
